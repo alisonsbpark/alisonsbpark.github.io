@@ -43,7 +43,7 @@ compress_html:
 
 #collection
 collections:
-  projects: false
+  projects:
     output: false
     permalink: /projects/:name/
     order:
