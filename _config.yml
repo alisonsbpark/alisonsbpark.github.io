@@ -42,20 +42,20 @@ compress_html:
   startings: []
 
 #collection
-collections:
-  projects:
-    output: false
-    permalink: /projects/:name/
-    order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
-      - project6 copy.md
-      - project6 copy 2.md
-      - project6 copy 3.md
+#collections:
+#  projects:
+#    output: false
+#    permalink: /projects/:name/
+#    order:
+#      - shortProject.md
+#      - longerProjectTitle.md
+#      - redirect.md
+#      - project4.md
+#      - project5.md
+#      - project6.md
+#      - project6 copy.md
+#      - project6 copy 2.md
+#      - project6 copy 3.md
 
 sass:
   sass_dir: /assets/css/_sass
