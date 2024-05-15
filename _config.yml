@@ -1,27 +1,28 @@
 ### your site title here
 
-title: Alison's portfolio
-description: Data Analyst | Report Developer
+title: Your Name
+description: subtitle | affiliations | motto
 
 baseurl: #name of GitHub repository
 url: https://alisonsbpark.github.io #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
-#paginate: 6
-#permalink: /blog/:year/:title/
-#paginate_path: /blog/page:num/
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter:
-linkedin:
-stackoverflow:
-github:
-researchgate:
-orcid:
-quora:
-instagram:
-facebook:
+twitter: "#"
+linkedin: "#"
+stackoverflow: "#"
+github: "#"
+researchgate: "#"
+orcid: "#"
+quora: "#"
+instagram: "#"
+facebook: "#"
+
 
 # Markdown
 highlighter: rouge
@@ -44,7 +45,7 @@ compress_html:
 #collection
 collections:
   projects:
-    output: true
+    output: false
     permalink: /projects/:name/
     order:
       - shortProject.md
@@ -53,15 +54,12 @@ collections:
       - project4.md
       - project5.md
       - project6.md
-      - project6 copy.md
-      - project6 copy 2.md
-      - project6 copy 3.md
 
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
 
-#include:
+include:
   - _pages
 
 exclude:
