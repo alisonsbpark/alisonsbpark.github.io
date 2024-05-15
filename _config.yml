@@ -4,7 +4,7 @@ title: Alison's portfolio
 description: Data Analyst | Report Developer
 
 baseurl:  #name of GitHub repository
-url: /alisonsbpark.github.io #custom url to be used instead of GitHub repository
+url: #/alisonsbpark.github.io #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
