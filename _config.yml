@@ -42,10 +42,10 @@ compress_html:
   startings: []
 
 #collection
-collections:
-  projects:
+collections: false
+  projects: false
     output: false
-    permalink: "" #/projects/:name/
+    permalink: false #/projects/:name/
     order:
       - shortProject.md
       - longerProjectTitle.md
