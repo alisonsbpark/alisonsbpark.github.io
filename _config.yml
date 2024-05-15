@@ -42,7 +42,7 @@ compress_html:
   startings: []
 
 #collection
-collections: false
+collections:
   projects: false
     output: false
     permalink: false #/projects/:name/
