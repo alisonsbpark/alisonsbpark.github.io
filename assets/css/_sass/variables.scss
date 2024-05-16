@@ -1,4 +1,4 @@
-$base-font-family: 'Work Sans', sans-serif;
+$base-font-family: 'Halvetica Neue', sans-serif;
 $base-font-size:   20px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -6,9 +6,9 @@ $base-line-height: 1.7;
 
 $spacing-unit:     30px;
 $light-gray: gray;
-$text-color:       #333;
+$text-color:       #bbc2ce;
 $background-color: #fdfdfd;
-$brand-color:      #74c0fc;
+$brand-color:      #667afb;
 $projectbox-text:  #1e2126;
 
 // Color scheme for light
@@ -17,9 +17,18 @@ $projectbox: #c3e1c9;
 $text-color: #333;
 
 // Color scheme for dark modes
-$body-bg-dark: #1A1F35;
-$projectbox-dark: lighten(#98a0ac, 2%);
-$text-color-dark: #98a0ac;
+$body-bg-dark: #101321;
+$projectbox-dark: lighten(#bbc2ce, 2%);
+$text-color-dark-title: #66b8fb;
+$text-color-dark: #bbc2ce;
+$text-color-dark-highlight: #254ca7;
+
+
+//$base-font-family: 'Work Sans', sans-serif;
+//$base-font-size:   20px;
+//$base-font-weight: 400;
+//$small-font-size:  $base-font-size * 0.875;
+//$base-line-height: 1.7;
 
 //$body-bg-dark: 23272d;
 //$projectbox-dark: lighten(98a0ac, 2%);
@@ -27,7 +36,7 @@ $text-color-dark: #98a0ac;
 
 //$spacing-unit:     30px;
 //$light-gray: gray;
-//$text-color:       #333;
+//$text-color:       #254ca7;
 //$background-color: #fdfdfd;
 //$brand-color:      #60c17d;
 //$projectbox-text:  #1e2126;

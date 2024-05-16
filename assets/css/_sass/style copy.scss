@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   line-height: $base-line-height;
   font-size: $base-font-size;
-  color: $text-color-dark;
+  color: $text-color;
   background-color: $body-bg;
   padding: 2em 1em;
   text-rendering: optimizeLegibility;
@@ -21,15 +21,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.8;
   margin: 0;
   text-transform: inherit;
-
-  @media (prefers-color-scheme: dark) {
-    color: $text-color-dark-title;
-  }
 }
 
 
@@ -37,10 +33,10 @@ a {
   color: $brand-color;
   text-decoration: none;
   &:hover{
-    color: $text-color-dark-highlight;
+    color: $text-color;
 
     @media (prefers-color-scheme: dark) {
-      color: $text-color-dark-highlight;
+      color: $text-color-dark;
     }
 
   }
@@ -70,7 +66,7 @@ p a {
   }
 
   @media (prefers-color-scheme: dark) {
-    color: $brand-color;
+    color: $text-color-dark;
   }
 }
 
