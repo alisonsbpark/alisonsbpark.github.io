@@ -21,8 +21,7 @@ researchgate:
 orcid: 
 quora: 
 instagram: 
-facebook: 
-
+facebook:
 
 # Markdown
 highlighter: rouge
@@ -48,12 +47,12 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - ccbhc_sra_report.md
+      - ccbhc_sra_report copy.md
+      - ccbhc_sra_report copy 2.md
+      - ccbhc_sra_report copy 3.md
+      - ccbhc_sra_report copy 4.md
+      - ccbhc_sra_report copy 5.md
 
 sass:
   sass_dir: /assets/css/_sass
